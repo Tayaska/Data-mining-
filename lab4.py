@@ -277,7 +277,6 @@ nx.draw(
 plt.title("Graph based on similarity (Age & Views)")
 plt.show()
 
-# 🔥 ФІНАЛЬНИЙ ВИВІД ДАНИХ (ДЛЯ ЗВІТУ)
 
 print("\n=== FINAL DATA ===")
 print(data_final[[
