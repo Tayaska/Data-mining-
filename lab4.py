@@ -59,8 +59,6 @@ for item in stats["items"]:
 
 data = pd.DataFrame(data_list)
 
-
-# 🔹 Додаємо назви категорій
 category_map = {
     "10": "Music",
     "17": "Sports",
@@ -95,7 +93,6 @@ prob = (
 data["subscribe"] = (prob > prob.mean()).astype(int)
 
 
-# 🔥 ЗБЕРІГАЄМО ФІНАЛЬНУ ТАБЛИЦЮ ДЛЯ ВИВОДУ
 data_final = data.copy()
 
 
